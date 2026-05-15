@@ -38,8 +38,8 @@ Homepage → Login → Product List → Product Details → Add to Cart → View
 - Assertions used to validate:
   - Response code  
   - Response text  
-  - Response time (duration)  
-  - Response size  
+  - Duration 
+  - Size  
 
 - Listeners added for analysis:
   - View Results Tree (for debugging)
