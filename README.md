@@ -9,6 +9,7 @@ This project focuses on performance testing of the DemoBlaze web application (ht
 
 ## Test Scenario
 The test simulates a real user journey:
+
 Homepage → Login → Product List → Product Details → Add to Cart → View Cart → Place Order
 
 ## Test Design
