@@ -4,7 +4,8 @@
 This project focuses on performance testing of the DemoBlaze web application (https://www.demoblaze.com/) using Apache JMeter. It evaluates how the system performs under multiple concurrent users by measuring response time, stability, throughput, and overall system behavior under load.
 
 ## Tools Used
-- Apache JMeter  
+- Apache JMeter
+- BlazeMeter (for capturing user actions)  
 
 ## Test Scenario
 The test simulates a real user journey:
@@ -17,13 +18,13 @@ Homepage → Login → Product List → Product Details → Add to Cart → View
 
 - Config elements used:
   - CSV Data Set Config (for multiple user login credentials for parameterization)
-  - User Defined Variables
+  - User Defined Variables (to reuse common URLs)
   - HTTP Cookie Manager
   - HTTP Cache Manager
   - HTTP Header Manager  
 
 - Samplers used:
-  - Samplers used to perform all user actions on the website
+  - HTTP Request used to perform all user actions on the website
 
 - Transaction Controllers used for:
   - Login flow  
