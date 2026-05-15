@@ -1,7 +1,7 @@
 # DemoBlaze Performance Testing Project
 
 ## Project Overview
-This project focuses on performance testing of the DemoBlaze web application using Apache JMeter. It evaluates how the system performs under multiple concurrent users by measuring response time, stability, throughput, and overall system behavior under load.
+This project focuses on performance testing of the DemoBlaze web application (https://www.demoblaze.com/) using Apache JMeter. It evaluates how the system performs under multiple concurrent users by measuring response time, stability, throughput, and overall system behavior under load.
 
 ## Tools Used
 - Apache JMeter  
