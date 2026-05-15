@@ -15,22 +15,29 @@ Homepage → Login → Product List → Product Details → Add to Cart → View
 - Test Plan created for end-to-end user flow  
 - Thread Group used to simulate multiple users  
 
+- Config elements used:
+  - CSV Data Set Config (for multiple user login credentials for parameterization)
+  - User Defined Variables
+  - HTTP Cookie Manager
+  - HTTP Cache Manager
+  - HTTP Header Manager  
+
 - Samplers used:
-  - HTTP Requests used to simulate all user actions across the website
+  - Samplers used to perform all user actions on the website
 
 - Transaction Controllers used for:
   - Login flow  
   - Purchase flow  
+
+- Timers used:
+  - Constant Timer  
+  - Uniform Random Timer  
 
 - Assertions used to validate:
   - Response code  
   - Response text  
   - Response time (duration)  
   - Response size  
-
-- Timers used:
-  - Constant Timer  
-  - Uniform Random Timer  
 
 - Listeners added for analysis:
   - View Results Tree (for debugging)
@@ -39,13 +46,6 @@ Homepage → Login → Product List → Product Details → Add to Cart → View
   - Summary Report (quick overview of results)
   - Graph Results (performance trends visualization)
   - Assertion Results (failed assertions tracking)
-
-- Config elements used:
-  - CSV Data Set Config (for multiple user login credentials for parameterization)
-  - User Defined Variables
-  - HTTP Cookie Manager
-  - HTTP Cache Manager
-  - HTTP Header Manager
 
 ## Load Setup
 - Multiple virtual users used  
