@@ -11,28 +11,41 @@ The test simulates a real user journey:
 Homepage → Login → Product List → Product Details → Add to Cart → View Cart → Place Order
 
 ## Test Design
-- Test Plan created for end-to-end flow  
-- Thread Group used for multiple users  
-- CSV file used for different user credentials  
-- HTTP requests added for all steps  
+
+- Test Plan created for end-to-end user flow  
+- Thread Group used to simulate multiple users  
+
+- Samplers used:
+  - HTTP Requests used to simulate all user actions across the website
+
 - Transaction Controllers used for:
   - Login flow  
   - Purchase flow  
-- Assertions used to check:
+
+- Assertions used to validate:
   - Response code  
   - Response text  
-  - Duration
-  - Size  
+  - Response time (duration)  
+  - Response size  
+
 - Timers used:
   - Constant Timer  
   - Uniform Random Timer  
+
 - Listeners added for analysis:
   - View Results Tree (for debugging)
-  - View Results Table (for request-level details)
+  - View Results Table (request-level details)
   - Aggregate Report (main performance analysis)
   - Summary Report (quick overview of results)
-  - Graph Results (visual performance trends)
-  - Assertion Results (to track failed assertions)
+  - Graph Results (performance trends visualization)
+  - Assertion Results (failed assertions tracking)
+
+- Config elements used:
+  - CSV Data Set Config (for multiple user login credentials for parameterization)
+  - User Defined Variables
+  - HTTP Cookie Manager
+  - HTTP Cache Manager
+  - HTTP Header Manager
 
 ## Load Setup
 - Multiple virtual users used  
