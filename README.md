@@ -49,7 +49,7 @@ Homepage → Login → Product List → Product Details → Add to Cart → View
   - Graph Results (performance trends visualization)
   - Assertion Results (failed assertions tracking)
     
-- HTML Dashboard report was generated using JMeter command line (non-GUI mode) for a detailed visual summary of performance metrics (available in the Reports folder).
+- HTML Dashboard report was generated using JMeter command line (non-GUI mode) for a detailed visual summary of performance metrics (available in the Reports folder)
 
 ## Load Setup
 - Multiple virtual users used  
