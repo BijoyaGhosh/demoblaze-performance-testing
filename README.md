@@ -48,6 +48,8 @@ Homepage → Login → Product List → Product Details → Add to Cart → View
   - Summary Report (quick overview of results)
   - Graph Results (performance trends visualization)
   - Assertion Results (failed assertions tracking)
+    
+- HTML Dashboard report was generated using JMeter command line (non-GUI mode) for a detailed visual summary of performance metrics (available in the Reports folder).
 
 ## Load Setup
 - Multiple virtual users used  
@@ -58,10 +60,7 @@ Homepage → Login → Product List → Product Details → Add to Cart → View
 - Total Requests: 350  
 - Success Rate: 99.43%  
 - Failure Rate: 0.57%  
-- Average Response Time: ~402 ms  
-
-- HTML Dashboard report was generated using Apache JMeter command line (non-GUI mode).  
-- The report provides a detailed visual summary of performance metrics like response time, throughput, and error rate.
+- Average Response Time: ~402 ms   
 
 ## Key Observations
 - Most requests worked fine under load  
